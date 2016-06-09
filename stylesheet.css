@@ -1,5 +1,32 @@
+@import url(https://fonts.googleapis.com/css?family=Work+Sans);
+@import url(https://fonts.googleapis.com/css?family=EB+Garamond);
+
 body {
-  font-family: Helvetica, sans-serif;
-  color: #333;
+  font-family: 'Work Sans', Helvetica, sans-serif;
+  color: #1A3B5F;
+  background: #E8F6FF;
+  padding: 5em;
 }
+
+h1 { border-bottom: 1px solid #1A3B5F; }
+h1, h2, h3 { font-family: 'EB Garamond'; }
+ul li { color: #2E475F; }
+
+h1#todo + ul  {
+  padding: 1em 3em;
+  background: #FFE34D;
+}
+
+
+/*
+
+blue         #1A3B5F
+blue-lighter #2E475F
+lightblue    #8FE0E9
+lightestblue #E8F6FF
+light gray   #79D3DB
+yello        #FFE34D
+green        #B49428
+
+*/
 
